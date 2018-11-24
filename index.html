@@ -1,133 +1,420 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Facebook_Cover</title>  
-<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+<title>Sam_Hsieh_Intro</title>
+<style>
+    .current-tag{
+        width:250px;
+        height:25px;
+        margin:5px;
+        background-color: rgb(207, 83, 124);
+        color:rgb(50, 50, 58);
+        padding:5px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    </style>
+<link rel="stylesheet" type="text/css" href="SamHsieh_Intro.css" media="all" />
 </head>
 <body>
-    <div class="frame">
-        <div class="left">
-            facebook
+    <div class="frame_cover">
+        Sam Hsieh
+        <div class="col_cover">Suspended in Webs of Significance I Myself Have Spun.</div>
+    </div>
+    <div class="frame_bar">
+        <div id="bar_home" type="botton" onclick="changeToHome()" class="col_bar">HOME</div>
+        <div id="bar_resume" type="button" onclick="changeToResume()" class="col_bar">RESUME</div>
+        <div id="bar_performance" type="button" onclick="changeToPerformance()" class="col_bar">RESULT</div>
+        <div id="bar_interest" type="button" onclick="changeToInterest()" class="col_bar">INTEREST</div>
+        <div id="bar_programming" type="button" onclick="changeToProgramming()" class="col_bar">PROGRAMMING</div>
+
+    </div>
+    <div id = "home_content" class="frame_home">
+        <div class="col_left">
+            <img src="sam_06.jpg" width="360"/><br/>
+            <br/>
         </div>
-        <div class="right">
-            <div class="col1">
-                Email or Phone
-                <input type="text" />
-            </div>
-            <div class="col1">
-                Password
-                <input type="text" /><br/>
-                <a href="https://www.facebook.com/login/identify?ctx=recover&lwv=111&ars=royal_blue_bar">
-                <div style="font-size:10px; color:white">
-                Forgot account?
-                </div>
-                </a>
-            </div>
-            <div class="col1">
-                <br>
-                <a href= "https://www.facebook.com/login.php?login_attempt=1&lwv=111">
-                <input type="button" value="Log In" style="width:50px;height:24px;color:white; background-color:rgb(67, 67, 117)">
-                </a>
+        <div class="col_right_home">
+            <div>嗨! 我是<span style="color:rgb(6, 77, 105); font-weight:bolder">Sam</span>
+                ，對世界充滿好奇與熱情。我的學習力強，擁有快速適應新事物的能力;
+                我熱愛單車和旅行，型塑了我獨立豁達的性格;
+                我傾向理性思考，欣賞簡潔合理的程式語言。<br/>
+                <br/>
+                夢想是成為寫出厲害作品、騎腳踏車旅行的女工程師。<br/>
             </div>
         </div>
     </div>
-    <div class="frame2">
-            <div class="left2">
-                <br/>
-                Connect with friends and the <br/>
-                world around you on Facebook.<br/>
-                <div class="left3">
-                    <div class="col2"><img src="fb_photo.png" width = "50"/></div>
-                    <div class="col2">See photos and updates 
-                    <span class="col2s">from friends in News Feed.</span>
-                    </div>
+    <div id="resume_content" class="frame_resume">
+        <div class="col_left">
+            <img src="sam_02.jpg" width = "320"/>
+        </div>  
+        <div class="col_right_resume">
+            <div>
+                <div class="title">
+                基本資料
                 </div>
-                <div class="left3">
-                    <div class="col2"><img src="fb_new.png" width = "50"/></div>
-                    <div class="col2">Share what's News
-                     <span class="col2s">in your life on your Timeline.</span>
-                    </div>
+                姓名：謝佩珊<br/>
+                ⽣⽇：1986.01.20<br/>
+                性別：⼥<br/>
+                信箱：cigaga@gmail.com<br/>
+                ⼿機：0932-735-466<br/>
+                地址：台北市⽂⼭區萬慶街51巷3號3樓<br/>
+            </div>
+            <div>
+                <div class="title">
+                <br/>學　　歷
                 </div>
-                <div class="left3">
-                    <div class="col2"><img src="fb_more.png" width = "50"/></div>
-                    <div class="col2">Find more
-                    <span class="col2s">of what you're looking for with Facebook Search.</span>
-                    </div>
+                碩⼠／國⽴臺灣⼤學 歷史研究所　　　2011.09 - 2015.01<br/>
+                學⼠／國⽴臺灣師範⼤學 歷史學系　　2004.09 - 2009.06
+            </div>
+            <div>
+                <div class="title">
+                <br/>經　　歷
                 </div>
-            </div> 
-            <div class="right2">
-                <div class="right3">
-                <div style="font-size:30px; font-weight:bolder">Sign Up</div><br/>
-                <br/>
-                It’s free and always will be.<br/>
-                <br/>
-                <br/>
-                <input type="text" style="width:225px;height:32px" />
-                <input type="text" style="width:225px;height:32px" /><br/>
-                <br/>
-                <input type="text" style="width:460px;height:32px" /><br>
-                <br/>
-                <input type="text" style="width:460px;height:32px" /><br>
-                <br/>
-                <br/>
-                Birthday<br/>
-                <div class="right4">
-                    <div class="col2s">  
-                    <input type="text" style="width:75px;height:24px" />
-                    <input type="text" style="width:60px;height:24px" />
-                    <input type="text" style="width:75px;height:24px" />
-                    </div>
-                    <div class="col2s">  
-                    <span style="font-size:10px">Why do I need to provide my 
-                    <br/>birthday?</span><br/>
-                    </div>
-                </div>
-                <div>&nbsp;o&nbsp;Female&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    o&nbsp;Male</div><br/>
-                <div class="col2s">     
-                    <div style="font-size:10px">
-                    By clicking Sign Up, you agree to our 
-                    <span style="color:darkblue">
-                        <a href="https://www.facebook.com/policies/cookies/">
-                        Terms</a> </span>, 
-                    <span style="color:darkblue">
-                        <a href="https://www.facebook.com/about/privacy/update">
-                        Data Policy</a></span> and<br>
-                    <span style="color:darkblue">
-                        <a href="https://www.facebook.com/policies/cookies/">
-                        Cookies Policy</a></span>. You may receive SMS Notifications from us and<br>
-                     can opt out any time.
-                    </div> 
+                專任助理／國⽴臺灣⼤學 教學發展中⼼  　2010.06 - 2015.01
+                <div class="col_right_resume2">
+                    *⼤型活動企劃與執⾏<br/> 
+                    *活動粉專經營與宣傳<br/> 
+                    *⾃主學習計畫輔導與監督<br/> 
                     <br/>
-                    <input type="button" value="Sign Up" style="width:230px;height:40px;font-size:20px;color:white;background-color:green;margin-bottom:10px">
-                    <hr width="460px" align="left" />
-                    <div style="font-weight:bolder; font-size:12px; font-family:Microsoft JhengHei;color:grey">
-                    <span style="color:darkblue">
-                        <a href="https://www.facebook.com/pages/creation/?ref_type=registration_form">
-                            Create a Page
-                        </a>
-                        </span> 
-                        for a celebrity, band or business.
-                    </div>
-                    <br/>                
+                 </div>
+                數位編輯／故事：寫給所有⼈的歷史  　2015.02 – 2015.06
+                <div class="col_right_resume2">
+                    *協助對外邀稿及活動邀約<br/> 
+                    *線上⽂章轉載與編輯<br/>
+                    <br/>
+                </div>
+                數位資料庫助理／中央研究院近代史研究所　　2010.06 - 2015.01
+                <div class="col_right_resume2">
+                    *資料收集、整理與校對<br/>
+                    *資料庫內容、HTML 標籤製作<br/>
                 </div>
             </div>
+            <div>
+                <div class="title">
+                    <br/>專　　長
+                </div>
+                數位主題演講／⼯作坊（企劃執行）<br/>
+                ⼤型國際會議／論壇（籌備辦理）<br/>
+                實體展演（規劃執行）<br/>
+                口述歷史訪談與撰寫<br/>
+                <div>
+                    <div class="title">
+                    <br/>其他技能
+                    </div>
+                    TOEIC 850<br/>
+                    外語領隊（英語）<br/>
+                    單車嚮導
+                    <br/>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <div id="performance_content" class="frame_Performance">
+        <div class="col_eachPerformanceName">
+                2017 臺⼤ X 報導者：⼩⽥野計劃
+        </div>
+        <div class= "frame_eachPerformance">
+            <div class="col_eachImage">
+                <img src="news_01.jpg" class="pfmimg" />
+            </div>
+            <div class="col_eachImage">
+                <img src="news_02.jpg" class="pfmimg" />
+            </div>
+            <div class="col_eachImage">
+                <img src="news_03.jpg" class="pfmimg" />
+            </div>
+        </div>
+        <div class="col_eachPerformanceName">
+               2016 NTU Forum：Learning How to Learn／Barbara Oakley
+        </div>
+        <div class= "frame_eachPerformance">
+            <div class="col_eachImage">
+                <img src="oakley_01.jpg" class="pfmimg" />
+            </div>
+            <div class="col_eachImage">
+                <img src="oakley_02.jpg" class="pfmimg" />
+            </div>
+            <div class="col_eachImage">
+                <img src="oakley_03.jpg" class="pfmimg" />
+            </div>
+        </div>
+        <div class="col_eachPerformanceName">
+                2016 Future Faculty Talk: Challenge of Academia／林夏如
+         </div>
+         <div class= "frame_eachPerformance">
+            <div class="col_eachImage">
+                <img src="lin_01.jpg" class="pfmimg" />
+            </div>
+            <div class="col_eachImage">
+                <img src="lin_02.jpg" class="pfmimg" />
+            </div>
+            <div class="col_eachImage">
+                <img src="lin_03.jpg" class="pfmimg" />
+            </div>
+        </div>
+        <div class="col_eachPerformanceName">
+                2016 你的新媒體學伴：故事 X 泛科學 X 阿滴英⽂ X 臺灣吧
+        </div>
+        <div class= "frame_eachPerformance">
+            <div class="col_eachImage">
+                <img src="media_01.jpg" class="pfmimg" />
+            </div>
+            <div class="col_eachImage">
+                <img src="media_02.jpg" class="pfmimg" />
+            </div>
+            <div class="col_eachImage">
+                <img src="media_03.jpg" class="pfmimg" />
+            </div>
+         </div>        
+    </div>
+    <div id="interest_content" class="frame_Interest">
+        <div class="frame_eachInterest">
+            <div class="col_left_interest">
+                <img src="bike_01.jpg" width = "480"/>
+            </div>
+            <div class="col_right_interest">
+                <div class="title">
+                    單　　車
+                </div>
+                我熱愛騎單車，覺得這是遊歷世界最好的方式。
+                曾經自己去環島，歷經11天，騎了1100公里。
+                這趟旅行不僅讓我好好看了一遍臺灣，
+                也使我更加了解自己，知道自己的極限在哪裡，最重視的事物是甚麼。<br/>
+                <br/>
+                關於單車，我有兩件想完成的事。一是海外單車旅行（北海道、紐西蘭、冰島）；
+                二是期盼未來能創建以女性車友為主的單車平台，
+                讓愛騎單車的女生都能選擇適合自己體力和喜好的路線，同時找到可以一起安心騎車的熱忱夥伴。
+            </div>
+        </div>
+        <div class="frame_eachInterest">
+            <div class="col_left_interest">
+                <img src="web_05.png" width = "480" height= "360"/>
+            </div>
+            <div class="col_right_interest">
+                <div class="title">
+                    程式語言
+                </div>
+                自從半年前接觸了Python，從此打開一種全新可能性。<br/>
+                <br/>
+                過去由於工作上經常需要辦理各式活動，我的思考模式偏向一個圓盤，
+                需要面面俱到、周延考慮一切可能性。<br/>
+                <br/>
+                程式語言的思考模式卻是一條直線，一路往下推論、此路不通走他路，我很欣賞這種簡潔明快的邏輯。
+                對我而言，這不僅是一項新工具，更是一種處理事情的的新思維。<br/>  
+                <br/>
+            </div>
+        </div>        
+        <div class="frame_eachInterest">
+            <div class="col_left_interest">
+                <img src="travel_01.jpg" width = "480"/>
+            </div>
+            <div class="col_right_interest">
+                <div class="title">
+                    自助旅行
+                </div>
+                我喜歡自己旅行。
+                近幾年一個人去澳洲、美西以及紐約，喜歡澳洲的開闊質樸、加州陽光和優勝美地的壯闊，
+                也震撼於紐約的都會叢林與當代人文藝術薈萃。<br/>
+                <br/>
+                "World is the way home"<br/>
+                <br/>
+                每次獨自出走，看遍世界的美麗與繁盛、遇見不同的人群與文化，
+                都讓我變得更加寬闊包容，也讓我更感到自己故鄉的可愛之處。  
+            </div>
+        </div>
+        <div class="frame_eachInterest">
+            <div class="col_left_interest">
+                <img src="panting_01.jpg" width = "480"/>
+            </div>
+            <div class="col_right_interest">
+                <div class="title">
+                    西方藝術史
+                </div>
+                大學時因為科系關係，接觸到藝術史相關課程。
+                西方藝術有一套嚴謹的理論發展和風格脈絡，
+                與當時的社會、科學、宗教、文化等方面習習相關，
+                在研讀時不只需要感性的體悟，更需要清楚的邏輯推論和批判能力，
+                這種美感與理性兼具的特質很吸引我。<br/>
+                <br/>
+                左圖為 Édouard Manet 的作品"A Bar at the Folies Bergere"，
+                酒館仕女雖然身處喧囂凡塵，卻帶有冷眼超脫的神情。
 
             </div>
-    </div>
-    <div class="frame3">
-        <div class="col4">
-            <br/>
-            English(US)　中文(台灣)　Tiếng ViệtBahasa　Indonesiaภาษาไทย　日本語　Español　Português(Brasil)　Français(France)　Deutsch　Italiano
-            <input type="button" value="+" style="width:30px;height:24px;background-color:gray">
-            <hr width="1040px" align="left" />
-            Sign Up　 Log In　 Messenger　 Facebook Lite　 Mobile　 Find Friends　 People　 Pages　 Video Interests　 Places　 Games　 Locations　 Marketplace　 Groups<br/>
-             Instagram　 Local　 About　 Create Ad　 Create Page　 Developers　 Careers　 Privacy　 Cookies　Ad Choices　 Terms　 Account Security　 Login Help　 Help
-        <br/>　　
-        <br/>
-        <br/>
-        <div style="font-size:10px; color:gray">Facebook © 2018</div>
         </div>
     </div>
+    <div id="programming_content" class="frame_Programming">
+        <div class= "col_eachProgramming">
+            <div class="col_eachProgrammingName">
+                程式語言學習記錄部落格
+            </div>
+            <div class="col_eachProgrammingName"> 
+                作品：Facebook登入頁面 (JavaScript)
+            </div>
+        </div>
+        <div class= "col_eachProgramming">
+            <div class="col_eachProgrammingImage">
+                <a href="https://cigahsieh.blogspot.com/">
+                <img src="web_01.jpg" class="prgimg"/>
+                </a>
+            </div>
+            <div class="col_eachProgrammingImage">
+                <a href="https://mhciga.github.io/index.html">
+                <img src="web_03.jpg" class="prgimg" />
+                </a>
+            </div>
+        </div>
+        <div class= "col_eachProgramming">
+            <div class="col_eachProgrammingName">
+                作品：爬蟲程式專題 (Python)
+            </div>
+            <div class="col_eachProgrammingName">
+                作品：工讀時數自動產生器 (Python)
+            </div>
+        </div>
+        <div class= "col_eachProgramming">
+            <div class="col_eachProgrammingImage">
+                <a href="https://goo.gl/WPfXco">
+                <img src="web_02.jpg" class="prgimg" />
+                </a>
+            </div>
+            <div class="col_eachProgrammingImage">
+                <a href="https://youtu.be/QswkUki2ITk">
+                <img src="web_05.png" class="prgimg" />
+                </a>
+            </div>
+        </div>
+    </div>
+<script>
+  
+function get(id){
+    return window.document.getElementById(id)
+    };
+
+let pagehm = window.document.getElementById("home_content");
+let pageres = window.document.getElementById("resume_content");
+let pagepfm = window.document.getElementById("performance_content");
+let pageist = window.document.getElementById("interest_content");
+let pageprm = window.document.getElementById("programming_content");
+let rsm = get("bar_resume");
+let hm = get("bar_home");
+let pfm = get("bar_performance");
+let ist = get("bar_interest");
+let prm = get("bar_programming")
+hm.className = "current-tag";
+pagehm.style.display = "block";
+pagehm.style.display = "flex";
+pageres.style.display = "none";
+pagepfm.style.display = "none";
+pageist.style.display = "none";
+pageprm.style.display = "none";
+
+function changeToHome(){
+    hm.className = "current-tag";
+    rsm.className = "col_bar";
+    pfm.className = "col_bar";
+    ist.className = "col_bar";
+    prm.className = "col_bar";
+    if (pagehm.style.display = "none"){
+        pagehm.style.display = "block";
+        pagehm.style.display = "flex";
+        pageres.style.display = "none";
+        pagepfm.style.display = "none";
+        pageist.style.display = "none";
+        pageprm.style.display = "none";
+        }else{
+            pagehm.style.display = "none";
+        };
+};
+
+function changeToResume(){
+    let rsm = get("bar_resume");
+    let hm = get("bar_home");
+    let pfm = get("bar_performance");
+    let ist = get("bar_interest");
+    let prm = get("bar_programming");
+    hm.className = "col_bar";
+    rsm.className = "current-tag";
+    pfm.className = "col_bar";
+    ist.className = "col_bar";
+    prm.className = "col_bar";
+    if (pageres.style.display = "none"){
+        pageres.style.display = "block";
+        pageres.style.display = "flex";
+        pagehm.style.display = "none";
+        pagepfm.style.display = "none";
+        pageist.style.display = "none";
+        pageprm.style.display = "none";
+        }else{
+            pageres.style.display = "none";
+        };
+};
+
+function changeToPerformance(){
+    let rsm = get("bar_resume");
+    let hm = get("bar_home");
+    let pfm = get("bar_performance");
+    let ist = get("bar_interest");
+    let prm = get("bar_programming")
+    rsm.className = "col_bar";
+    hm.className = "col_bar";
+    pfm.className = "current-tag";
+    ist.className = "col_bar";
+    prm.className = "col_bar";
+    if (pagepfm.style.display = "none"){
+        pagepfm.style.display = "block";
+        pagehm.style.display = "none";
+        pageres.style.display = "none";
+        pageist.style.display = "none";
+        pageprm.style.display = "none";
+        }else{
+            pagepfm.style.display = "none";
+        };
+};
+
+function changeToInterest(){
+    let rsm = get("bar_resume");
+    let hm = get("bar_home");
+    let pfm = get("bar_performance");
+    let ist = get("bar_interest");
+    let prm = get("bar_programming")
+    rsm.className = "col_bar";
+    hm.className = "col_bar";
+    pfm.className = "col_bar";
+    ist.className = "current-tag";
+    prm.className = "col_bar";
+    if (pageist.style.display = "none"){
+        pageist.style.display = "block";
+        pagehm.style.display = "none";
+        pageres.style.display = "none";
+        pagepfm.style.display = "none";
+        pageprm.style.display = "none";
+        }else{
+            pageist.style.display = "none";
+        };
+};
+
+function changeToProgramming(){
+    let rsm = get("bar_resume");
+    let hm = get("bar_home");
+    let pfm = get("bar_performance");
+    let ist = get("bar_interest");
+    let prm = get("bar_programming")
+    rsm.className = "col_bar";
+    hm.className = "col_bar";
+    pfm.className = "col_bar";
+    ist.className = "col_bar";
+    prm.className = "current-tag";
+    if (pageist.style.display = "none"){
+        pageist.style.display = "none";
+        pagehm.style.display = "none";
+        pageres.style.display = "none";
+        pagepfm.style.display = "none";
+        pageprm.style.display = "block";
+        }else{
+            pageprm.style.display = "none";
+        };
+}
+ </script>
 </body>
 </html>
