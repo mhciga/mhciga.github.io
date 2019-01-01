@@ -294,8 +294,8 @@ let pageres = window.document.getElementById("resume_content");
 let pagepfm = window.document.getElementById("performance_content");
 let pageist = window.document.getElementById("interest_content");
 let pageprm = window.document.getElementById("programming_content");
-let rsm = get("bar_resume");
 let hm = get("bar_home");
+let rsm = get("bar_resume");
 let pfm = get("bar_performance");
 let ist = get("bar_interest");
 let prm = get("bar_programming")
@@ -326,16 +326,7 @@ function changeToHome(){
 };
 
 function changeToResume(){
-    let rsm = get("bar_resume");
-    let hm = get("bar_home");
-    let pfm = get("bar_performance");
-    let ist = get("bar_interest");
-    let prm = get("bar_programming");
-    hm.className = "col_bar";
     rsm.className = "current-tag";
-    pfm.className = "col_bar";
-    ist.className = "col_bar";
-    prm.className = "col_bar";
     if (pageres.style.display = "none"){
         pageres.style.display = "block";
         pageres.style.display = "flex";
