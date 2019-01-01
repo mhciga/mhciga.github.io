@@ -298,10 +298,9 @@ let hm = get("bar_home");
 let rsm = get("bar_resume");
 let pfm = get("bar_performance");
 let ist = get("bar_interest");
-let prm = get("bar_programming")
+let prm = get("bar_programming");
 hm.className = "current-tag";
 pagehm.style.display = "block";
-pagehm.style.display = "flex";
 pageres.style.display = "none";
 pagepfm.style.display = "none";
 pageist.style.display = "none";
@@ -315,7 +314,6 @@ function changeToHome(){
     prm.className = "col_bar";
     if (pagehm.style.display = "none"){
         pagehm.style.display = "block";
-        pagehm.style.display = "flex";
         pageres.style.display = "none";
         pagepfm.style.display = "none";
         pageist.style.display = "none";
@@ -326,11 +324,13 @@ function changeToHome(){
 };
 
 function changeToResume(){
-    rsm.className = "current-tag";
     hm.className = "col_bar";
+    rsm.className = "current-tag";
+    pfm.className = "col_bar";
+    ist.className = "col_bar";
+    prm.className = "col_bar";
     if (pageres.style.display = "none"){
         pageres.style.display = "block";
-        pageres.style.display = "flex";
         pagehm.style.display = "none";
         pagepfm.style.display = "none";
         pageist.style.display = "none";
@@ -341,13 +341,8 @@ function changeToResume(){
 };
 
 function changeToPerformance(){
-    let rsm = get("bar_resume");
-    let hm = get("bar_home");
-    let pfm = get("bar_performance");
-    let ist = get("bar_interest");
-    let prm = get("bar_programming")
-    rsm.className = "col_bar";
     hm.className = "col_bar";
+    rsm.className = "col_bar";
     pfm.className = "current-tag";
     ist.className = "col_bar";
     prm.className = "col_bar";
@@ -363,13 +358,8 @@ function changeToPerformance(){
 };
 
 function changeToInterest(){
-    let rsm = get("bar_resume");
-    let hm = get("bar_home");
-    let pfm = get("bar_performance");
-    let ist = get("bar_interest");
-    let prm = get("bar_programming")
-    rsm.className = "col_bar";
     hm.className = "col_bar";
+    rsm.className = "col_bar";
     pfm.className = "col_bar";
     ist.className = "current-tag";
     prm.className = "col_bar";
@@ -385,13 +375,8 @@ function changeToInterest(){
 };
 
 function changeToProgramming(){
-    let rsm = get("bar_resume");
-    let hm = get("bar_home");
-    let pfm = get("bar_performance");
-    let ist = get("bar_interest");
-    let prm = get("bar_programming")
-    rsm.className = "col_bar";
     hm.className = "col_bar";
+    rsm.className = "col_bar";
     pfm.className = "col_bar";
     ist.className = "col_bar";
     prm.className = "current-tag";
