@@ -21,14 +21,6 @@
     padding-top: 5px; padding-bottom: 5px;
 }
 
-.frame_like{
-    width:100%;
-    background-color:ivory;
-    display:flex;
-    align-items: center; 
-    justify-content:center; 
-}
-
 .frame_home{
     width:100%;
     display:flex;
