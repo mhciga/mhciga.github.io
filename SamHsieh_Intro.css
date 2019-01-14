@@ -1,10 +1,9 @@
 .frame_cover{
-    width:1000px;
+    width:100%;
     height:180px;
-    margin-left:auto; margin-right:auto;
+    padding-top: 30px;
     background-color:rgb(6, 77, 105);
     color:white;
-    padding: 10px;
     justify-content:center; 
     align-items:center;
     font-family:Microsoft JhengHei;
@@ -12,39 +11,35 @@
 }
 
 .frame_bar{
-    width:1000px;
-    height:30px;
-    margin-left:auto; margin-right:auto;
-    display:flex;
+    width:100%;
+    display: flex;
     background-color:wheat;
-    padding:10px;
     justify-content:center; 
     align-items:center;
     font-family:Microsoft JhengHei;
     font-size:20px;
+    padding-top: 5px; padding-bottom: 5px;
 }
 
 .frame_home{
-    width:1000px;
+    width:100%;
     display:flex;
     margin-left:auto; margin-right:auto;
     background-color:ivory;
-    padding:10px;
     justify-content:center; 
     align-items:center;
 }
 
 .frame_resume{
-    width:1000px;
+    width:100%;
     display:flex;
     margin-left:auto; margin-right:auto;
     background-color: ivory;
-    padding:10px;
     justify-content:center; 
 }
 
 .frame_Performance{
-    width:1000px;
+    width:100%;
     margin-left:auto; margin-right:auto;
     background-color:ivory;
     padding:10px;
@@ -74,26 +69,29 @@
 }
 
 .frame_Interest{
-    width:1000px;
-    margin-left:auto; margin-right:auto;
+    width:100%;
     background-color:ivory;
-    padding:10px;
+    display:flex;
+    margin-left:auto; margin-right:auto;
+    justify-content:center; 
+    align-items:center;
 }
 
 .frame_eachInterest{
-    width:1000px;
-    margin-left:auto; margin-right:auto;
-    margin-top:20px; margin-bottom: 20px;
-    display:flex;
+    width:100%;
     background-color:ivory;
-    justify-content:center;
+    padding-top:20px;
+    padding-bottom: 20px;
+    display:flex;
+    margin-left:auto; margin-right:auto;
+    justify-content:center; 
     align-items:center;
 }
 
 .frame_Programming{
     width:1000px;
-    margin-left:auto; margin-right:auto;
     display:flex;
+    margin-left:auto; margin-right:auto;
     background-color:ivory;
     padding:10px;
     justify-content:center;
@@ -101,7 +99,7 @@
 }
 
 .col_eachProgramming{
-    width:1000px;
+    width:100%;
     margin-left:auto; margin-right:auto;
     display:flex;
     background-color:ivory;
@@ -110,7 +108,7 @@
 }
 
 .col_eachProgrammingName{
-    width:420px;
+    width:480px;
     margin-left:auto; margin-right:auto;
     margin-top:20px; margin-bottom:5px;
     background-color:ivory;
@@ -124,7 +122,7 @@
 }
 
 .col_eachProgrammingImage{
-    width:420px;
+    width:480px;
     margin-left:auto; margin-right:auto;
     margin-bottom:40px;
     background-color:ivory;
@@ -133,52 +131,54 @@
 }
 
 .col_cover{
+    margin-left:10px;
     color:rgb(248, 193, 73);
     font-size:16px;
 }
 
 .col_bar{
-    width:250px;
-    height:25px;
+    width:100%;
     margin:5px;
     background-color: rgb(50, 50, 58);
     color:wheat;
     padding:5px;
+    border-radius:5px;
     text-align: center;
 }
 
 .col_left{
-    width:360px;
+    width:440px;
     margin-top:20px;
+    margin-left:20px;
+    margin-right: 20px;
     justify-content:center; 
     align-items:center;
 }
 
-.col_left_interst{
-    width:480px;
-    margin-top:20px;
-    margin-left:5px;
+.col_left_interest{
+    width:440px;
+    margin-left:20px;
+    margin-right:20px;
     background-color: ivory;
     justify-content:center; 
-    align-items:center;    
+    align-items:center;
 }
 
 .col_right_home{
-    width:560px;
+    width:100%;
     background-color: ivory;
     color:rgb(50, 50, 58);
-    margin-left:30px;
+    margin-left:30px; margin-right: 30px;
     font-size:22px;
     font-family:Microsoft JhengHei;
     line-height:40px;
 }
 
 .col_right_resume{
-    width:520px;
+    width:100%;
     background-color: ivory;
     color:rgb(50, 50, 58);
     margin-top:20px;
-    margin-left:20px; margin-right:20px;
     font-size:16px;
     font-family:Microsoft JhengHei;
     line-height:32px;
@@ -195,15 +195,14 @@
 }
 
 .col_right_interest{
-    width:480px;
-    height:360px;
-    margin-left:auto; margin-right:auto;
-    background-color: ivory;
+    width:100%;
+    margin-top:10px; margin-bottom:10px;
+    margin-left:20px; margin-right: 20px;
+    background-color:ivory;
     color:rgb(50, 50, 58);
-    font-size:16px;
+    font-size:18px;
     font-family:Microsoft JhengHei;
     line-height:32px;
-    align-items:center;   
 }
 
 .col_eachImage{
@@ -223,8 +222,8 @@
 .prgimg{
     display:block; 
     margin:auto; 
-    width:420px; 
-    height:315px;
+    width:480px; 
+    height:360px;
 }
 .title{
     color:rgb(6, 77, 105);
