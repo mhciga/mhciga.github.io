@@ -146,6 +146,18 @@
     text-align: center;
 }
 
+@media (min-width: 200px) and (max-width: 800px){
+    .col_bar{
+        background-color: rgb(92, 92, 97);;
+    };
+}
+
+@media (min-width: 200px) and (max-width: 800px){
+    .current-tag{
+        background-color: rgb(233, 122, 159);
+    };
+}
+
 .col_left{
     width:440px;
     margin-top:20px;
