@@ -23,14 +23,15 @@
         transition:0.4s;
     }
 
-    @media (min-width: 200px) and (max-width: 800px){
+    @media (min-width: 200px) and (max-width: 980px){
         #bar_home:hover, #bar_resume:hover, #bar_performance:hover, #bar_interest:hover, #bar_programming:hover{
             background-color: rgb(233, 122, 159)
         };
     }
 
-    @media (min-width: 200px) and (max-width: 800px){
-    .frame_bar, .frame_home, .frame_resume, .frame_Interest, .frame_eachInterest{
+    @media (min-width: 200px) and (max-width: 980px){
+    .frame_bar, .frame_home, .frame_resume, .frame_Interest, .frame_eachInterest, 
+    .frame_eachPerformance, .col_eachProgramming, .col_eachProgrammingName{
         -webkit-flex-flow: row wrap;
         flex-flow: row wrap;
         };
@@ -270,42 +271,38 @@
     <div id="programming_content" class="frame_Programming">
         <div class= "col_eachProgramming">
             <div class="col_eachProgrammingName">
-                程式語言學習記錄部落格
+                <div>程式語言學習記錄部落格</div>
+                <div class="col_eachProgrammingImage">
+                    <a href="https://cigahsieh.blogspot.com/">
+                    <img src="web_01.jpg" class="prgimg"/>
+                    </a>
+                </div>
             </div>
             <div class="col_eachProgrammingName"> 
-                作品：Facebook登入頁面 (JavaScript)
-            </div>
-        </div>
-        <div class= "col_eachProgramming">
-            <div class="col_eachProgrammingImage">
-                <a href="https://cigahsieh.blogspot.com/">
-                <img src="web_01.jpg" class="prgimg"/>
-                </a>
-            </div>
-            <div class="col_eachProgrammingImage">
-                <a href="https://mhciga.github.io/fbcover/">
-                <img src="web_03.jpg" class="prgimg" />
-                </a>           
-            </div>
+                <div>作品：Facebook登入頁面 (JavaScript)</div>
+                <div class="col_eachProgrammingImage">
+                    <a href="https://mhciga.github.io/fbcover/">
+                    <img src="web_03.jpg" class="prgimg" />
+                    </a>           
+                </div>
+            </div>            
         </div>
         <div class= "col_eachProgramming">
             <div class="col_eachProgrammingName">
-                作品：爬蟲程式專題 (Python)
+                <div>作品：爬蟲程式專題 (Python)</div>
+                <div class="col_eachProgrammingImage">
+                    <a href="https://goo.gl/WPfXco">
+                    <img src="web_02.jpg" class="prgimg" />
+                    </a>
+                </div>
             </div>
             <div class="col_eachProgrammingName">
-                作品：工讀時數自動產生器 (Python)
-            </div>
-        </div>
-        <div class= "col_eachProgramming">
-            <div class="col_eachProgrammingImage">
-                <a href="https://goo.gl/WPfXco">
-                <img src="web_02.jpg" class="prgimg" />
-                </a>
-            </div>
-            <div class="col_eachProgrammingImage">
-                <a href="https://youtu.be/QswkUki2ITk">
-                <img src="web_05.png" class="prgimg" />
-                </a>
+                <div>作品：工讀時數自動產生器 (Python)</div>
+                <div class="col_eachProgrammingImage">
+                    <a href="https://youtu.be/QswkUki2ITk">
+                    <img src="web_05.png" class="prgimg" />
+                    </a>
+                </div>
             </div>
         </div>
         <div class="col_eachProgramming">
@@ -326,7 +323,6 @@
         <div class="fb-like" data-href="https://mhciga.github.io/JS_0112/0112.html" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div> 
         </div>
     </div>
-
 <script>
   
 function get(id){
