@@ -160,13 +160,13 @@
     text-align: center;
 }
 
-@media (min-width: 200px) and (max-width: 800px){
+@media (min-width: 200px) and (max-width: 980px){
     .col_bar{
         background-color: rgb(92, 92, 97);;
     };
 }
 
-@media (min-width: 200px) and (max-width: 800px){
+@media (min-width: 200px) and (max-width: 980px){
     .current-tag{
         background-color: rgb(233, 122, 159);
     };
