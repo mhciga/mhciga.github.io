@@ -22,7 +22,7 @@
 }
 
 .frame_home{
-    width:100%;
+    width:1200px;
     display:flex;
     margin-left:auto; margin-right:auto;
     background-color:ivory;
@@ -31,7 +31,7 @@
 }
 
 .frame_resume{
-    width:100%;
+    width:1200px;
     display:flex;
     margin-left:auto; margin-right:auto;
     background-color: ivory;
@@ -39,7 +39,7 @@
 }
 
 .frame_Performance{
-    width:100%;
+    width:1200px;
     margin-left:auto; margin-right:auto;
     background-color:ivory;
     justify-content:center;
@@ -84,7 +84,7 @@
 }
 
 .frame_Interest{
-    width:100%;
+    width:1200px;
     background-color:ivory;
     display:flex;
     margin-left:auto; margin-right:auto;
@@ -104,7 +104,7 @@
 }
 
 .frame_Programming{
-    width:100%;
+    width:1200px;
     display:flex;
     margin-left:auto; margin-right:auto;
     background-color:ivory;
