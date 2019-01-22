@@ -21,6 +21,11 @@
     padding-top: 5px; padding-bottom: 5px;
 }
 
+.frame_body{
+    width:100%;
+    background-color:ivory;
+}
+
 .frame_home{
     width:1200px;
     display:flex;
