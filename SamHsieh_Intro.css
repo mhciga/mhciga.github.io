@@ -27,7 +27,7 @@
 }
 
 .frame_home{
-    width:1200px;
+    width:1000px;
     display:flex;
     margin-left:auto; margin-right:auto;
     background-color:ivory;
@@ -36,7 +36,7 @@
 }
 
 .frame_resume{
-    width:1200px;
+    width:1000px;
     display:flex;
     margin-left:auto; margin-right:auto;
     background-color: ivory;
@@ -44,7 +44,7 @@
 }
 
 .frame_Performance{
-    width:1200px;
+    width:1000px;
     margin-left:auto; margin-right:auto;
     background-color:ivory;
     justify-content:center;
@@ -81,7 +81,7 @@
     height:240px;
 }
 
-@media (min-width: 200px) and (max-width: 980px){
+@media (min-width: 200px) and (max-width: 1000px){
     .pfmimg{
         width:360px;
         height:270px;
@@ -89,7 +89,7 @@
 }
 
 .frame_Interest{
-    width:1200px;
+    width:1000px;
     background-color:ivory;
     display:flex;
     margin-left:auto; margin-right:auto;
@@ -109,7 +109,7 @@
 }
 
 .frame_Programming{
-    width:1200px;
+    width:1000px;
     display:flex;
     margin-left:auto; margin-right:auto;
     background-color:ivory;
@@ -117,7 +117,7 @@
     align-items:center;
 }
 
-@media (min-width: 200px) and (max-width: 980px){
+@media (min-width: 200px) and (max-width: 1000px){
     .frame_bar, .frame_home, .frame_resume, .frame_Interest, .frame_eachInterest, .frame_Performance,
     .frame_eachPerformance, .frame_Programming, .col_eachProgramming, .col_eachProgrammingName{
         width:100%;
@@ -174,13 +174,13 @@
     text-align: center;
 }
 
-@media (min-width: 200px) and (max-width: 980px){
+@media (min-width: 200px) and (max-width: 1000px){
     .col_bar{
         background-color: rgb(92, 92, 97);;
     };
 }
 
-@media (min-width: 200px) and (max-width: 980px){
+@media (min-width: 200px) and (max-width: 1000px){
     .current-tag{
         background-color: rgb(233, 122, 159);
     };
@@ -263,7 +263,7 @@
     height:360px;
 }
 
-@media (min-width: 200px) and (max-width: 980px){
+@media (min-width: 200px) and (max-width: 1000px){
     .prgimg{
         width:360px;
         height:270px;
@@ -281,7 +281,7 @@
     width:440px;
 }
 
-@media (min-width: 200px) and (max-width: 980px){
+@media (min-width: 200px) and (max-width: 1000px){
     .img{
         width:360px;
     };
