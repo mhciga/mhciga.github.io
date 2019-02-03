@@ -28,7 +28,6 @@
             background-color: rgb(233, 122, 159)
         };
     }
-    
     </style>
 <link rel="stylesheet" type="text/css" href="SamHsieh_Intro.css" media="all" />
 <link rel="stylesheet" media="screen and (min-width: 400px) and (max-width: 700px)" href="example.css" />
@@ -49,7 +48,7 @@
     <div class="frame_body">
     <div id = "home_content" class="frame_home">
         <div class="col_left">
-            <img src="sam_06.jpg" class="img"/><br/>
+            <img src="sam_06.jpg" class="imgHome"/><br/>
             <br/>
         </div>
         <div class="col_right_home">
@@ -66,7 +65,7 @@
     </div>
     <div id="resume_content" class="frame_resume">
         <div class="col_left">
-            <img src="sam_02.jpg" class="img"/>
+            <img src="sam_02.jpg" class="imgResume"/>
         </div>  
         <div class="col_right_resume">
             <div>
@@ -131,72 +130,128 @@
         </div>      
     </div>
     <div id="performance_content" class="frame_Performance">
-        <div class="col_eachPerformanceName">
-                2017 臺⼤ X 報導者：⼩⽥野計劃
-        </div>
-        <div class= "frame_eachPerformance">
-            <div class="col_eachImage">
-                <img src="news_01.jpg" class="pfmimg" />
+        <div class="frame_eachPerformance">
+            <div>
+                <div class="col_leftPerformance" onclick="nextPerformance01();">
+                <img src="news_01.jpg" class="pfmSlide01 pfmCurrent01" />
+                <img src="news_02.jpg" class="pfmSlide01" />
+                <img src="news_03.jpg" class="pfmSlide01" />                
+                </div>
             </div>
-            <div class="col_eachImage">
-                <img src="news_02.jpg" class="pfmimg" />
-            </div>
-            <div class="col_eachImage">
-                <img src="news_03.jpg" class="pfmimg" />
-            </div>
-        </div>
-        <div class="col_eachPerformanceName">
-               2016 NTU Forum：Learning How to Learn／Barbara Oakley
-        </div>
-        <div class= "frame_eachPerformance">
-            <div class="col_eachImage">
-                <img src="oakley_01.jpg" class="pfmimg" />
-            </div>
-            <div class="col_eachImage">
-                <img src="oakley_02.jpg" class="pfmimg" />
-            </div>
-            <div class="col_eachImage">
-                <img src="oakley_03.jpg" class="pfmimg" />
+            <div class="col_rightPerformance">
+                <div class="title">
+                2017 臺⼤ X 報導者：⼩⽥野計畫
+                </div>
+                <div class="intText">
+                    2017年，臺大希望計畫與新媒體《報導者》合作，
+                    鼓勵臺大學生踏出校園，實際走訪各個地區、深入接觸不同階層，
+                    運用文字與影像記錄他們對社會、對生活、對人群的想法與關心。
+                    並於期末公開展出學生豐碩的報導成果、與相關議題的非營利組織合作，
+                    希望藉此機會讓更多人看見社會上需要關注的族群和議題，
+                    同時發揚臺大人關心社會、關懷人群、追求理想的精神。<br/>
+                    <br/>
+                    <div class="linkText">
+                    <a href="https://ntureporters.wordpress.com/">更多關於[小田野計畫]請見官方網站</a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col_eachPerformanceName">
-                2016 Future Faculty Talk: Challenge of Academia／林夏如
-         </div>
-         <div class= "frame_eachPerformance">
-            <div class="col_eachImage">
-                <img src="lin_01.jpg" class="pfmimg" />
-            </div>
-            <div class="col_eachImage">
-                <img src="lin_02.jpg" class="pfmimg" />
-            </div>
-            <div class="col_eachImage">
-                <img src="lin_03.jpg" class="pfmimg" />
+        <div class="frame_eachPerformance">
+            <div>
+                <div class="col_leftPerformance" onclick="nextPerformance02();">
+                <img src="oakley_01.jpg" class="pfmSlide02 pfmCurrent02" />
+                <img src="oakley_02.jpg" class="pfmSlide02" />
+                <img src="oakley_03.jpg" class="pfmSlide02" />                
+                </div>
+            </div>               
+            <div class="col_rightPerformance">
+                <div class="title">
+                2016 NTU Forum：Learning How to Learn／Barbara Oakley
+                </div>
+                <div class="intText">
+                    Coursera 百萬名師 Dr. Barbara Oakley 親臨台大。
+                    現場湧入了超過 400 位聽眾，全都為一睹名師風采。
+                    Barbara Oakley 以生動的語言和手勢，將神經科學、認知心理學和教育學融會運用，
+                    解釋大腦如何吸收和處理信息，從而使我們成為更好的教學者與學習者。
+                    本場演講成果豐碩，獲得廣泛回響，登上了《天下雜誌》和《中國時報》。<br/>
+                    <br/>
+                    <div class="linkText">
+                    <a href="https://www.cw.com.tw/article/article.action?id=5075957">
+                    《天下雜誌》百萬人都在上的課：怎麼學習最有效 </a><br/>
+                    <a href="https://magazine.chinatimes.com/gfamily/20160602003917-300404">
+                    《中國時報》奧克蘭大學教授歐克莉「學習如何學習」</a>
+                    </div>           
+                </div>
             </div>
         </div>
-        <div class="col_eachPerformanceName">
-                2016 你的新媒體學伴：故事 X 泛科學 X 阿滴英⽂ X 臺灣吧
+        <div class="frame_eachPerformance">
+            <div>
+                <div class="col_leftPerformance" onclick="nextPerformance03();">
+                <img src="lin_01.jpg" class="pfmSlide03 pfmCurrent03" />
+                <img src="lin_02.jpg" class="pfmSlide03" />
+                <img src="lin_03.jpg" class="pfmSlide03" />                
+                </div>
+           </div>               
+            <div class="col_rightPerformance">
+                <div class="title">
+                    2016 Future Faculty Talk: Challenge of Academia／林夏如
+                </div>
+                 <div>
+                    2016 年 7 月，前高盛集團亞洲合夥人、現任香港中文大學教授 林夏如女士應教學發展中心邀請，
+                    特地前來與臺大教師、研究生分享她對學術圈現況的看法。
+                    林教授先談自己從商界轉入學界的心路歷程，再分析歐美學界與台灣學界當前面臨的挑戰，
+                    並提出她認為可行的解決方案。<br/>
+                    <br/>
+                    <div class="linkText">
+                    <a href="https://www.cw.com.tw/article/article.action?id=5059108">
+                    《天下雜誌》哈佛面試官林夏如：台灣要發光，先改變媽寶社會
+                    </a></div>      
+                </div>
+            </div>
         </div>
-        <div class= "frame_eachPerformance">
-            <div class="col_eachImage">
-                <img src="media_01.jpg" class="pfmimg" />
+        <div class="frame_eachPerformance">
+            <div>
+                <div class="col_leftPerformance" onclick="nextPerformance04();">
+                <img src="media_01.jpg" class="pfmSlide04 pfmCurrent04" />
+                <img src="media_02.jpg" class="pfmSlide04" />
+                <img src="media_03.jpg" class="pfmSlide04" />                
+                </div>
+           </div>               
+            <div class="col_rightPerformance">
+                <div class="title">
+                        2016 你的新媒體學伴：故事 X 泛科學 X 阿滴英⽂ X 臺灣吧
+                </div>
+                <div>
+                    網路已然是學習的重要管道，個人數位經營也成為不可不學的技巧。
+                    2016年底，我們邀請火紅的英文教學 Youtuber〈阿滴英文〉、人氣動畫公司〈臺灣吧〉、
+                    新銳科學媒體〈泛科學〉、深度歷史網站〈故事：寫給所有人的歷史〉等等。
+                    結合時下學生興趣所在的主題，新媒體講座場場爆滿，見證數位時代知識網紅的魅力。<br/>
+                    <br/>
+                    <div class="linkText">
+                    <a href="http://speech.ntu.edu.tw/ntuspeech/Video/id-2383">
+                        你的新媒體學伴(1) 阿滴英文 X 臺灣吧</a>
+                        <br/>
+                    <a href="http://speech.ntu.edu.tw/ntuspeech/Video/id-2382">
+                        你的新媒體學伴(2) 故事Gushi X 泛科學PanSci</a>
+                    </div>      
+                </div>
             </div>
-            <div class="col_eachImage">
-                <img src="media_02.jpg" class="pfmimg" />
-            </div>
-            <div class="col_eachImage">
-                <img src="media_03.jpg" class="pfmimg" />
-            </div>
-         </div>        
+        </div>
     </div>
     <div id="interest_content" class="frame_Interest">
         <div class="frame_eachInterest">
-            <div class="col_left_interest">
-                <img src="bike_01.jpg" class="img" /> 
+            <div>
+            <div class="col_left_interest" onclick="nextInterest();">
+            <img src="bike_01.jpg" class="intSlide intCurrent" />
+            <img src="bike_02.jpg" class="intSlide" />
+            <img src="bike_03.jpg" class="intSlide" />
+            </div>
             </div>
             <div class="col_right_interest">
                 <div class="title">
                     單　　車
                 </div>
+                <div class="intText">
                 我熱愛騎單車，覺得這是遊歷世界最好的方式。
                 曾經自己去環島，歷經11天，騎了1100公里。
                 這趟旅行不僅讓我好好看了一遍臺灣，
@@ -205,12 +260,11 @@
                 關於單車，我有兩件想完成的事。一是海外單車旅行（北海道、紐西蘭、冰島）；
                 二是期盼未來能創建以女性車友為主的單車平台，
                 讓愛騎車的女生能選擇適合自己體力和喜好的路線，同時找到可以一起安心騎車的夥伴。
+                </div>
             </div>
         </div>
         <div class="frame_eachInterest">
-            <div class="col_left_interest">
-                <img src="web_05.png" class="img" />
-            </div>
+            <img src="web_05.png" id=img_slide class="col_left_interest"/>
             <div class="col_right_interest">
                 <div class="title">
                     程式語言
@@ -225,9 +279,7 @@
             </div>
         </div>        
         <div class="frame_eachInterest">
-            <div class="col_left_interest">
-                <img src="travel_01.jpg"  class="img" />
-            </div>
+            <img src="travel_01.jpg" id=img_slide class="col_left_interest"/>
             <div class="col_right_interest">
                 <div class="title">
                     自助旅行
@@ -243,9 +295,7 @@
             </div>
         </div>
         <div class="frame_eachInterest">
-            <div class="col_left_interest">
-                <img src="panting_01.jpg" class="img" />
-            </div>
+            <img src="panting_01.jpg" id=img_slide class="col_left_interest"/>
             <div class="col_right_interest">
                 <div class="title">
                     西方藝術史
@@ -298,12 +348,15 @@
                 </div>
             </div>
         </div>
+
     <!--    
         <div class="col_eachProgramming">
             <div id="piechart" style="margin:40px"></div>
         </div>
     -->
+    
     </div>
+
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
@@ -321,7 +374,7 @@
         </div>
     </div>
     </div>
-
+    
 <script>  
 function get(id){
     return window.document.getElementById(id)
@@ -432,6 +485,66 @@ function changeToProgramming(){
         };
 }
 </script>
+
+<script>
+
+
+let slidesPfm01, indexPfm01;
+window.addEventListener("DOMContentLoaded", function(){
+    slidesPfm01=document.querySelectorAll(".pfmSlide01");
+    indexPfm01=0;
+    });
+function nextPerformance01(){
+    slidesPfm01[indexPfm01].classList.remove("pfmCurrent01");
+    indexPfm01=(indexPfm01+1)%slidesPfm01.length;
+    slidesPfm01[indexPfm01].classList.add("pfmCurrent01");
+};
+
+let slidesPfm02, indexPfm02;
+window.addEventListener("DOMContentLoaded", function(){
+    slidesPfm02=document.querySelectorAll(".pfmSlide02");
+    indexPfm02=0;
+    });
+function nextPerformance02(){
+    slidesPfm02[indexPfm02].classList.remove("pfmCurrent02");
+    indexPfm02=(indexPfm02+1)%slidesPfm02.length;
+    slidesPfm02[indexPfm02].classList.add("pfmCurrent02");
+};
+
+let slidesPfm03, indexPfm03;
+window.addEventListener("DOMContentLoaded", function(){
+    slidesPfm03=document.querySelectorAll(".pfmSlide03");
+    indexPfm03=0;
+    });
+function nextPerformance03(){
+    slidesPfm03[indexPfm03].classList.remove("pfmCurrent03");
+    indexPfm03=(indexPfm03+1)%slidesPfm03.length;
+    slidesPfm03[indexPfm03].classList.add("pfmCurrent03");
+};
+
+let slidesPfm04, indexPfm04;
+window.addEventListener("DOMContentLoaded", function(){
+    slidesPfm04=document.querySelectorAll(".pfmSlide04");
+    indexPfm04=0;
+    });
+function nextPerformance04(){
+    slidesPfm04[indexPfm04].classList.remove("pfmCurrent04");
+    indexPfm04=(indexPfm04+1)%slidesPfm04.length;
+    slidesPfm04[indexPfm04].classList.add("pfmCurrent04");
+};
+
+let slidesInt, index;
+    window.addEventListener("DOMContentLoaded", function(){
+    slidesInt=document.querySelectorAll(".intSlide");
+    index=0;
+    });
+function nextInterest(){
+    slidesInt[index].classList.remove("intCurrent");
+    index = (index+1)%slidesInt.length; 
+    slidesInt[index].classList.add("intCurrent");
+}
+</script>
+
 <!--
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">
