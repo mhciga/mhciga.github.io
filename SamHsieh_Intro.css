@@ -287,6 +287,7 @@
     background-color:ivory;
     position: absolute;
     left:100%; top:0px;
+    border-radius:20px;
 }
 
 .intSlide01:first-child, .intSlide02:first-child, .intSlide03:first-child, .intSlide04:first-child{
