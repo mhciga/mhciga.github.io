@@ -272,27 +272,52 @@
 .col_left_interest{
     width:440px;
     height:360px;
-    display:flex;
     margin-left:20px;
     margin-right:20px;
     background-color: ivory;
     justify-content:center; 
     align-items:center;
     position: relative;
+    overflow: hidden;
 }
 
-.intSlide{
+.intSlide01, .intSlide02, .intSlide03, .intSlide04{
     width:440px;
     height:360px;
     background-color:ivory;
-    display:flex;
-    position: absolute;left:0px; top:0px; 
-    transition: opacity 1s; opacity: 0;
+    position: absolute;
+    left:100%; top:0px;
 }
 
-.intCurrent{
-    background-color: ivory;
-    opacity: 1;
+.intSlide01:first-child, .intSlide02:first-child, .intSlide03:first-child, .intSlide04:first-child{
+    left:0px;
+}
+
+.inInt{
+    animation:slide-in 1s; animation-fill-mode: forwards;
+}
+
+.outInt{
+    animation:slide-out 1s; animation-fill-mode: forwards;
+}
+
+
+@keyframes slide-in{
+    0%{
+        left:100%;
+    }
+    100%{
+        left:0px;
+    }
+}
+
+@keyframes slide-out{
+    0%{
+        left:0px;
+    }
+    100%{
+        left:-100%;
+    }
 }
 
 .col_right_interest{
@@ -391,8 +416,22 @@
 @media (min-width: 200px) and (max-width: 1000px){
     .col_left_interest, .col_leftPerformance, .intSlide, .intCurrent, 
     .pfmSlide01, .pfmCurrent01, .pfmSlide02, .pfmCurrent02, .pfmSlide03, .pfmCurrent03,
-    .pfmSlide04, .pfmCurrent04{
+    .pfmSlide04, .pfmCurrent04, .intSlide01, .intSlide02, .intSlide03, .intSlide04{
         width:360px;
         height:270px;
     };
+}
+
+
+.intStay{
+    animation:slide-stay 0.1s; animation-fill-mode: forwards;
+}
+
+@keyframes slide-stay{
+    0%{
+        left:100%;
+    }
+    100%{
+        left:0px;
+    }
 }
