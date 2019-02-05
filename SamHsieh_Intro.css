@@ -422,16 +422,3 @@
     };
 }
 
-
-.intStay{
-    animation:slide-stay 0.1s; animation-fill-mode: forwards;
-}
-
-@keyframes slide-stay{
-    0%{
-        left:100%;
-    }
-    100%{
-        left:0px;
-    }
-}
