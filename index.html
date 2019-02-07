@@ -4,31 +4,6 @@
 <title>Sam_Hsieh_Intro</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<style>
-    .current-tag{
-        width:100%;
-        margin:5px;
-        background-color: rgb(207, 83, 124);
-        color:rgb(50, 50, 58);
-        padding:5px;
-        border-radius:5px;
-        font-weight: bolder;
-        text-align: center;
-    }
-
-    #bar_home:hover, #bar_resume:hover, #bar_performance:hover, #bar_interest:hover, #bar_programming:hover{
-        background-color: rgb(207, 83, 124);
-        color:rgb(50, 50, 58);
-        font-weight: bold;
-        transition:0.4s;
-    }
-
-    @media (min-width: 200px) and (max-width: 1000px){
-        #bar_home:hover, #bar_resume:hover, #bar_performance:hover, #bar_interest:hover, #bar_programming:hover{
-            background-color: rgb(233, 122, 159)
-        };
-    }
-    </style>
 <link rel="stylesheet" type="text/css" href="SamHsieh_Intro.css" media="all" />
 <link rel="stylesheet" media="screen and (min-width: 400px) and (max-width: 700px)" href="example.css" />
 
@@ -360,47 +335,79 @@
     <div id="programming_content" class="frame_Programming">
         <div class= "col_eachProgramming">
             <div class="col_eachProgrammingName">
-                <div>程式語言學習記錄部落格</div>
+                <div>
+                <a href="https://cigahsieh.blogspot.com/">程式語言學習記錄部落格</a>
+                </div>
+                <div style="font-size:12px; font-weight: normal;">(點圖看作品說明)</div>
                 <div class="col_eachProgrammingImage">
-                    <a href="https://cigahsieh.blogspot.com/">
-                    <img src="web_01.jpg" class="prgimg"/>
-                    </a>
+                <img src="web_01.jpg" class="prgimg"/>
+                <div id="prmImg01" class="imgText" onclick="showText01();">
+                    <div style="margin: 20px;">
+                    這個部落格記錄我從 2018 年初開始學習程式語言的歷程，
+                    包括學習資源的收集、學習的方式（線上或實體），
+                    刷題庫的心得和一些巧妙高竿的解法，
+                    當然還有學習時遭遇的收穫、困難和體悟。
+                    </div>
+                </div>
                 </div>
             </div>
             <div class="col_eachProgrammingName"> 
-                <div>作品：Facebook登入頁面 (JavaScript)</div>
-                <div class="col_eachProgrammingImage">
-                    <a href="https://mhciga.github.io/fbcover/">
-                    <img src="web_03.jpg" class="prgimg" />
-                    </a>           
+                <div>
+                <a href="https://mhciga.github.io/fbcover/">作品：Facebook登入頁面 (JavaScript)</a>
                 </div>
-            </div>            
+                <div style="font-size:12px; font-weight: normal;">(點圖看作品說明)</div>
+                <div class="col_eachProgrammingImage">
+                <img src="web_03.jpg" class="prgimg"/>
+                <div id="prmImg02" class="imgText" onclick="showText02();">
+                    <div style="margin: 20px;">
+                    Facebook 頁面仿作是我用 JavaScript 寫出來的第一個作品，
+                    運用簡單的 HTML、CSS 以及 JavaScript 語法就能刻出樣板，
+                    也可以學到版面架構分析，對於初學者而言是很適切的練習。
+                    </div>
+                </div>
+                </div>
+            </div>
         </div>
         <div class= "col_eachProgramming">
             <div class="col_eachProgrammingName">
-                <div>作品：爬蟲程式專題 (Python)</div>
+                <div>
+                <a href="https://goo.gl/WPfXco">作品：爬蟲程式專題 (Python)</a>
+                </div>
+                <div style="font-size:12px; font-weight: normal;">(點圖看作品說明)</div>
                 <div class="col_eachProgrammingImage">
-                    <a href="https://goo.gl/WPfXco">
-                    <img src="web_02.jpg" class="prgimg" />
-                    </a>
+                <img src="web_02.jpg" class="prgimg"/>
+                <div id="prmImg03" class="imgText" onclick="showText03();">
+                    <div style="margin: 20px;">
+                    本作品是在臺大資訊系統訓練班完成的專題，
+                    運用 Python 強大的 Request 套件擷取電影網站資料，整理後印出。
+                    這個作品目前仍未完整，往後將整合成電影資料庫、用網站形式呈現。
+                    </div>
+                </div>
                 </div>
             </div>
             <div class="col_eachProgrammingName">
-                <div>作品：工讀時數自動產生器 (Python)</div>
-                <div class="col_eachProgrammingImage">
-                    <a href="https://youtu.be/QswkUki2ITk">
-                    <img src="web_05.png" class="prgimg" />
-                    </a>
+                <div>
+                <a href="https://youtu.be/QswkUki2ITk">作品：工讀時數自動產生器 (Python)</a>
                 </div>
-            </div>    
+                <div style="font-size:12px; font-weight: normal;">(點圖看作品說明)</div>
+                <div class="col_eachProgrammingImage">
+                <img src="web_05.png" class="prgimg"/>
+                <div id="prmImg04" class="imgText" onclick="showText04();">
+                    <div style="margin: 20px;">
+                    這是我自學 Python 一個月左右寫出來的小玩具。
+                    最初是想減少一筆筆 key in 時數的煩冗，於是用些基本概念來寫，
+                    之後邊學邊做修改，下個目標是將之視覺化，讓它可以在前端頁面操作。
+                    </div>
+                </div>
+                </div>
+            </div>  
         </div>
 
-    <!--    
         <div class="col_eachProgramming">
-            <div id="piechart" style="margin:40px"></div>
+            <div id="piechart" style="margin:40px;"></div>
         </div>
-    -->
-    
+   
+    </div>
     </div>
     <!--  
     <div id="fb-root"></div>
@@ -647,9 +654,48 @@ function nextInterest04(){
     slidesInt04[indexInt04].classList.remove("outInt");
     slidesInt04[indexInt04].classList.add("inInt");
 }
- 
 </script>
-<!--
+
+<script>
+
+function showText01(){
+    let txt=document.getElementById("prmImg01");
+    if(txt.style.opacity==0){
+        txt.style.opacity=1;
+    }else{
+        txt.style.opacity=0;
+    }
+}
+
+function showText02(){
+    let txt=document.getElementById("prmImg02");
+    if(txt.style.opacity==0){
+        txt.style.opacity=1;
+    }else{
+        txt.style.opacity=0;
+    }
+}
+
+function showText03(){
+    let txt=document.getElementById("prmImg03");
+    if(txt.style.opacity==0){
+        txt.style.opacity=1;
+    }else{
+        txt.style.opacity=0;
+    }
+}
+
+function showText04(){
+    let txt=document.getElementById("prmImg04");
+    if(txt.style.opacity==0){
+        txt.style.opacity=1;
+    }else{
+        txt.style.opacity=0;
+    }
+}
+</script>
+
+
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">
     google.charts.load('current', {'packages':['corechart']});
@@ -665,20 +711,20 @@ function nextInterest04(){
             title: 'My Programming Skill',
             titleTextStyle:{
                 color:"rgb(50, 50, 58)",
-                fontSize: 32,
+                fontSize: 22,
             },
-            width: 800,
-            height: 480,
+            width: 360,
+            height: 360,
             chartArea: {
-                width: 540, 
-                height: 400
+                width: 340, 
+                height: 280,
             },
             is3D: true,
             colors:['yellow','pink'],
-            fontSize:28,
+            fontSize:18,
             backgroundColor: "ivory",
             pieSliceTextStyle: {
-                color: 'rgb(50, 50, 58)', fontSize: 32
+                color: 'rgb(50, 50, 58)', fontSize: 18,
             },
             slices: {0: {offset:0.04}}
         };
@@ -686,6 +732,6 @@ function nextInterest04(){
         chart.draw(data, options);
     }
 </script>
--->
+
 
 </html>
