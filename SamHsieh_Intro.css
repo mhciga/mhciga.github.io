@@ -43,11 +43,36 @@
     };
 }
 
+.current-tag{
+    width:100%;
+    margin:5px;
+    background-color: rgb(207, 83, 124);
+    color:rgb(50, 50, 58);
+    padding:5px;
+    border-radius:5px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#bar_home:hover, #bar_resume:hover, #bar_performance:hover, #bar_interest:hover, #bar_programming:hover{
+    background-color: rgb(207, 83, 124);
+    color:rgb(50, 50, 58);
+    font-weight: bold;
+    transition:0.4s;
+}
+
+@media (min-width: 200px) and (max-width: 1000px){
+    #bar_home:hover, #bar_resume:hover, #bar_performance:hover, #bar_interest:hover, #bar_programming:hover{
+        background-color: rgb(233, 122, 159)
+    };
+}
+
 @media (min-width: 200px) and (max-width: 1000px){
     .current-tag{
         background-color: rgb(233, 122, 159);
     };
 }
+
 
 .frame_body{
     width:100%;
@@ -364,13 +389,13 @@
 }
 
 .col_eachProgrammingImage{
-    width:100%;
+    width:480px; 
+    height:360px;
     margin-left:auto; margin-right:auto;
     margin-top: 10px;
     margin-bottom:20px;
     background-color:ivory;
-    justify-content:center; 
-    align-items:center;   
+    position: relative; 
 }
 
 .prgimg{
@@ -378,13 +403,31 @@
     margin:auto; 
     width:480px; 
     height:360px;
+    border-radius:10px;
 }
 
 @media (min-width: 200px) and (max-width: 1000px){
     .prgimg{
         width:360px;
         height:270px;
+        border-radius:10px;
     };
+}
+
+.imgText{
+    width:480px; 
+    height:360px;
+    background-color: rgb(32, 120, 187);
+    color:white;
+    position: absolute;
+    left:0px; top:0px;  
+    opacity: 0; transition: 1s;
+    display: flex;
+    align-items:center;
+    border-radius:10px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 40px;
 }
 
 .title{
@@ -417,9 +460,10 @@
 @media (min-width: 200px) and (max-width: 1000px){
     .col_left_interest, .col_leftPerformance, .intSlide, .intCurrent, 
     .pfmSlide01, .pfmCurrent01, .pfmSlide02, .pfmCurrent02, .pfmSlide03, .pfmCurrent03,
-    .pfmSlide04, .pfmCurrent04, .intSlide01, .intSlide02, .intSlide03, .intSlide04{
+    .pfmSlide04, .pfmCurrent04, .intSlide01, .intSlide02, .intSlide03, .intSlide04, 
+    .col_eachProgrammingImage, .imgText{
         width:360px;
         height:270px;
+        font-size: 18px;
     };
 }
-
