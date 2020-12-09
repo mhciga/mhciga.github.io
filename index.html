@@ -13,7 +13,10 @@
         <div style="margin-left:10px;margin-bottom: 5px">Sam Hsieh</div>
         <div class="col_cover">Suspended in Webs of Significance I Myself Have Spun.</div>
     </div>
-    <div class="frame_bar">
+    <div class="frame_menu">
+        <div id="menu_btn" type="butoon" onclick="clickAll()" class="btnMenu">MENU</div>
+    </div>
+    <div id ="button_bar" class="frame_bar" style="display: none">
         <div style=" cursor: pointer;" id="bar_home" type="button" onclick="changeToHome()" class="col_bar">HOME</div>
         <div style=" cursor: pointer;" id="bar_resume" type="button" onclick="changeToResume()" class="col_bar">RESUME</div>
         <div style=" cursor: pointer;" id="bar_performance" type="button" onclick="changeToPerformance()" class="col_bar">RESULT</div>
@@ -346,6 +349,16 @@
     </div>
 
 </body>
+<script>
+    let btnBar = window.document.getElementById("button_bar");
+    function clickAll(){
+        if(btnBar.style.display=="none"){
+            btnBar.style.display="flex";
+        }else{
+            btnBar.style.display="none";
+        }
+    }
+</script>
 <script>  
 function get(id){
     return window.document.getElementById(id)
